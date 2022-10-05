@@ -2,7 +2,7 @@ const AdminJS = require('adminjs')
 const AdminJSExpress = require('@adminjs/express')
 const express = require('express')
 const mongoose = require('mongoose');
-const options = require('./admin.options');
+const options = require('./main/admin.options');
 // const buildAdminRouter = require('./admin.router');
 const PORT = 3000
 
